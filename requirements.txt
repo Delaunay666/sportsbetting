@@ -1,0 +1,23 @@
+
+# Dependências principais
+customtkinter>=5.0.0
+pandas>=1.5.0
+matplotlib>=3.5.0
+numpy>=1.21.0
+Pillow>=9.0.0
+cryptography>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+reportlab>=3.6.0
+psutil>=5.8.0
+
+# Dependências Windows
+pywin32>=227; sys_platform == "win32"
+
+# Dependências de compilação
+pyinstaller>=5.0
+
+# Dependências opcionais
+scikit-learn>=1.0.0
+requests>=2.25.0
+flask>=2.0.0

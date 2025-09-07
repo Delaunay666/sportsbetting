@@ -1,0 +1,21 @@
+{
+  "drawdown_threshold": 100.0,
+  "losing_streak_threshold": 3,
+  "roi_threshold": -5.0,
+  "bankroll_threshold": 20.0,
+  "odd_threshold": 5.0,
+  "value_bet_threshold": 1.1,
+  "kelly_threshold": 0.25,
+  "variance_threshold": 2.0,
+  "check_interval": 300,
+  "enabled_alerts": {
+    "drawdown": false,
+    "losing_streak": true,
+    "roi_warning": true,
+    "bankroll_low": true,
+    "high_risk_bet": true,
+    "value_opportunity": true,
+    "kelly_warning": true,
+    "performance_anomaly": true
+  }
+}

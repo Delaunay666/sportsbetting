@@ -1,0 +1,1844 @@
+# Log limpo em 2025-08-28 18:29:58
+2025-08-28 18:32:10,523 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-28 18:32:10,525 - __main__ - INFO - ==================================================
+2025-08-28 18:32:10,525 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-28 18:32:10,526 - __main__ - INFO - ==================================================
+2025-08-28 18:32:10,531 - __main__ - INFO - Sistema Operacional: nt
+2025-08-28 18:32:10,535 - __main__ - INFO - Plataforma: win32
+2025-08-28 18:32:10,537 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-28 18:32:10,538 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-28 18:32:10,539 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-28 18:32:10.539091
+2025-08-28 18:32:10,540 - __main__ - INFO - ==================================================
+2025-08-28 18:32:10,542 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-28 18:32:10,543 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-28 18:32:10,551 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-28 18:32:10,552 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-28 18:32:14,477 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-28 18:32:18,259 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-28 18:32:18,768 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-28 18:32:18,817 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-28 18:32:18,840 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-28 18:32:20,467 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-28 18:32:20,472 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 18:32:20,482 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 18:32:20,488 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 18:32:20,504 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 18:32:20,528 - __main__ - INFO - ✅ Dependências - OK
+2025-08-28 18:32:20,542 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-28 18:32:20,553 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-28 18:32:20,568 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-28 18:32:20,570 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-28 18:32:20,582 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-28 18:32:20,588 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-28 18:32:20,597 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 18:32:20,606 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-28 18:32:20,617 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-28 18:32:20,630 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-28 18:32:20,632 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-28 18:32:20,634 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-28 18:32:20,639 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-28 18:32:20,647 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-28 18:32:20,649 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-28 18:32:20,651 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-28 18:32:20,651 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-28 18:32:20,652 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-28 18:32:20,654 - __main__ - INFO - ✅ Configurações - OK
+2025-08-28 18:32:20,656 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-28 18:32:20,663 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-28 18:32:20,664 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-28 18:32:20,778 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-28 18:32:20,784 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-28 18:32:29,081 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-28 18:32:29,083 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-28 18:33:53,036 - __main__ - INFO - 👋 Aplicação encerrada normalmente
+2025-08-28 19:45:55,691 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-28 19:45:55,692 - __main__ - INFO - ==================================================
+2025-08-28 19:45:55,692 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-28 19:45:55,693 - __main__ - INFO - ==================================================
+2025-08-28 19:45:55,693 - __main__ - INFO - Sistema Operacional: nt
+2025-08-28 19:45:55,694 - __main__ - INFO - Plataforma: win32
+2025-08-28 19:45:55,695 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-28 19:45:55,696 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-28 19:45:55,696 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-28 19:45:55.696793
+2025-08-28 19:45:55,697 - __main__ - INFO - ==================================================
+2025-08-28 19:45:55,697 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-28 19:45:55,698 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-28 19:45:55,698 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-28 19:45:55,699 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-28 19:45:56,847 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-28 19:45:58,403 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-28 19:45:58,672 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-28 19:45:58,682 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-28 19:45:58,690 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-28 19:45:59,312 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-28 19:45:59,315 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 19:45:59,317 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 19:45:59,319 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 19:45:59,321 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 19:45:59,322 - __main__ - INFO - ✅ Dependências - OK
+2025-08-28 19:45:59,323 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-28 19:45:59,324 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-28 19:45:59,325 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-28 19:45:59,326 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-28 19:45:59,327 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-28 19:45:59,328 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-28 19:45:59,329 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 19:45:59,330 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-28 19:45:59,330 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-28 19:45:59,331 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-28 19:45:59,332 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-28 19:45:59,333 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-28 19:45:59,334 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-28 19:45:59,336 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-28 19:45:59,337 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-28 19:45:59,339 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-28 19:45:59,339 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-28 19:45:59,339 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-28 19:45:59,341 - __main__ - INFO - ✅ Configurações - OK
+2025-08-28 19:45:59,342 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-28 19:45:59,342 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-28 19:45:59,343 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-28 19:45:59,399 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-28 19:45:59,400 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-28 19:46:05,357 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-28 19:46:05,357 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-28 21:17:17 - __main__ - INFO - Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-28 21:17:17 - __main__ - INFO - Sistema: win32
+2025-08-28 21:17:17 - __main__ - INFO - Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-28 21:17:17 - __main__ - INFO - Diretorio: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI239882
+2025-08-28 21:17:17 - __main__ - INFO - Executavel: C:\Users\Administrator\Desktop\Apostas desportivas\distribuicao\ApostasDesportivas_v2.1_20250828_DEFINITIVO\ApostasDesportivas.exe
+2025-08-28 21:17:17 - __main__ - INFO - Verificando: Versão do Python
+2025-08-28 21:17:17 - __main__ - INFO - Python 3.13.2 - OK
+2025-08-28 21:17:17 - __main__ - INFO - Versão do Python - OK
+2025-08-28 21:17:17 - __main__ - INFO - Verificando: Dependências
+2025-08-28 21:17:18 - __main__ - INFO - customtkinter - OK
+2025-08-28 21:17:20 - __main__ - INFO - pandas - OK
+2025-08-28 21:17:20 - __main__ - INFO - matplotlib - OK
+2025-08-28 21:17:20 - __main__ - INFO - cryptography - OK
+2025-08-28 21:17:20 - __main__ - INFO - reportlab - OK
+2025-08-28 21:17:20 - __main__ - INFO - flask - Encontrado (v2.0)
+2025-08-28 21:17:20 - __main__ - INFO - scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 21:17:20 - __main__ - INFO - kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 21:17:20 - __main__ - INFO - bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 21:17:20 - __main__ - INFO - PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 21:17:20 - __main__ - INFO - Dependências obrigatórias - OK
+2025-08-28 21:17:20 - __main__ - INFO - Dependências - OK
+2025-08-28 21:17:20 - __main__ - INFO - Verificando: Arquivos necessários
+2025-08-28 21:17:20 - __main__ - INFO - Arquivo interface.py - Encontrado
+2025-08-28 21:17:20 - __main__ - INFO - Arquivo apostas.db - Encontrado
+2025-08-28 21:17:20 - __main__ - INFO - Arquivo requirements.txt - Encontrado
+2025-08-28 21:17:20 - __main__ - INFO - Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-28 21:17:20 - __main__ - INFO - Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-28 21:17:20 - __main__ - INFO - Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-28 21:17:20 - __main__ - INFO - Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-28 21:17:20 - __main__ - INFO - Arquivos necessários - OK
+2025-08-28 21:17:20 - __main__ - INFO - Arquivos necessários - OK
+2025-08-28 21:17:20 - __main__ - INFO - Verificando: Diretórios
+2025-08-28 21:17:20 - __main__ - INFO - Diretório logs - Verificado
+2025-08-28 21:17:20 - __main__ - INFO - Diretório exports - Verificado
+2025-08-28 21:17:20 - __main__ - INFO - Diretório backups - Verificado
+2025-08-28 21:17:20 - __main__ - INFO - Diretório data - Verificado
+2025-08-28 21:17:20 - __main__ - INFO - Diretório traducoes - Verificado
+2025-08-28 21:17:20 - __main__ - INFO - Diretório temas - Verificado
+2025-08-28 21:17:20 - __main__ - INFO - Diretórios - OK
+2025-08-28 21:17:20 - __main__ - INFO - Diretórios - OK
+2025-08-28 21:17:20 - __main__ - INFO - Verificando: Configurações
+2025-08-28 21:17:20 - __main__ - INFO - Configuração básica criada
+2025-08-28 21:17:20 - __main__ - INFO - Configurações - OK
+2025-08-28 21:17:20 - __main__ - INFO - Configurações - OK
+2025-08-28 21:17:20 - __main__ - INFO - Todas as verificações passaram!
+2025-08-28 21:17:20 - __main__ - INFO - Carregando interface principal...
+2025-08-28 21:17:20 - __main__ - INFO - Inicializando sistema de usuários...
+2025-08-28 21:17:20 - __main__ - INFO - Sistema de usuários v2.0 não disponível - usando modo single-user
+2025-08-28 21:17:20 - __main__ - INFO - Sistema de ML disponível
+2025-08-28 21:17:23 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-28 21:17:28 - __main__ - INFO - Interface carregada com sucesso
+2025-08-28 21:17:28 - __main__ - INFO - Aplicação iniciada!
+2025-08-28 21:18:40 - __main__ - INFO - Aplicação encerrada normalmente
+2025-08-28 21:43:48,168 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-28 21:43:48,169 - INFO - Verificando: Módulos essenciais
+2025-08-28 21:43:48,629 - INFO - customtkinter - Carregado e cacheado
+2025-08-28 21:43:48,644 - INFO - tkinter - Carregado e cacheado
+2025-08-28 21:43:48,714 - INFO - sqlite3 - Carregado e cacheado
+2025-08-28 21:43:48,728 - INFO - Verificando: Arquivos
+2025-08-28 21:43:48,743 - ERROR - Arquivos em falta: ['interface.py']
+2025-08-28 21:43:48,764 - ERROR - Falha na verificação: Arquivos
+2025-08-28 21:43:48,767 - ERROR - Falha na inicialização da aplicação
+2025-08-28 21:53:38,598 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-28 21:53:38,599 - INFO - Verificando: Módulos essenciais
+2025-08-28 21:53:39,074 - INFO - customtkinter - Carregado e cacheado
+2025-08-28 21:53:39,093 - INFO - tkinter - Carregado e cacheado
+2025-08-28 21:53:39,174 - INFO - sqlite3 - Carregado e cacheado
+2025-08-28 21:53:39,198 - INFO - Verificando: Arquivos
+2025-08-28 21:53:39,211 - INFO - Verificando: Diretórios
+2025-08-28 21:53:39,256 - INFO - Verificando: Configurações
+2025-08-28 21:53:39,285 - INFO - Inicialização otimizada concluída!
+2025-08-28 21:53:39,285 - INFO - Tempo de inicialização: 1.16s
+2025-08-28 21:53:40,266 - INFO - pandas - Carregado em background
+2025-08-28 21:53:40,368 - INFO - matplotlib - Carregado em background
+2025-08-28 21:53:40,486 - INFO - cryptography - Carregado em background
+2025-08-28 21:53:40,611 - INFO - reportlab - Carregado em background
+2025-08-28 21:53:41,017 - INFO - flask - Carregado em background
+2025-08-28 21:53:41,121 - INFO - scikit-learn - Não disponível
+2025-08-28 21:53:41,123 - INFO - bcrypt - Não disponível
+2025-08-28 21:53:41,126 - INFO - PyJWT - Não disponível
+2025-08-28 21:53:43,010 - INFO - generated new fontManager
+2025-08-28 21:53:43,911 - ERROR - Erro ao inicializar interface: No module named 'pydoc'
+2025-08-28 21:53:43,934 - ERROR - Traceback: Traceback (most recent call last):
+  File "run_app_otimizado.py", line 377, in inicializar_interface_rapida
+    from interface import ApostasApp
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "interface.py", line 20, in <module>
+    from main import DatabaseManager, Aposta
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "main.py", line 21, in <module>
+    import seaborn as sns
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\__init__.py", line 5, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\relational.py", line 18, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\axisgrid.py", line 19, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\_docstrings.py", line 2, in <module>
+ModuleNotFoundError: No module named 'pydoc'
+
+2025-08-28 21:53:43,935 - ERROR - Erro crítico: No module named 'pydoc'
+2025-08-28 21:53:43,948 - ERROR - Traceback: Traceback (most recent call last):
+  File "run_app_otimizado.py", line 462, in main
+    initializer.inicializar_interface_rapida()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "run_app_otimizado.py", line 377, in inicializar_interface_rapida
+    from interface import ApostasApp
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "interface.py", line 20, in <module>
+    from main import DatabaseManager, Aposta
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "main.py", line 21, in <module>
+    import seaborn as sns
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\__init__.py", line 5, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\relational.py", line 18, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\axisgrid.py", line 19, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\_docstrings.py", line 2, in <module>
+ModuleNotFoundError: No module named 'pydoc'
+
+2025-08-28 22:04:35,559 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-28 22:04:35,562 - INFO - Verificando: Módulos essenciais
+2025-08-28 22:04:36,414 - INFO - customtkinter - Carregado e cacheado
+2025-08-28 22:04:36,429 - INFO - tkinter - Carregado e cacheado
+2025-08-28 22:04:36,490 - INFO - sqlite3 - Carregado e cacheado
+2025-08-28 22:04:36,497 - INFO - Verificando: Arquivos
+2025-08-28 22:04:36,514 - INFO - Verificando: Diretórios
+2025-08-28 22:04:36,538 - INFO - Verificando: Configurações
+2025-08-28 22:04:36,560 - INFO - Inicialização otimizada concluída!
+2025-08-28 22:04:36,560 - INFO - Tempo de inicialização: 2.89s
+2025-08-28 22:04:37,402 - INFO - pandas - Carregado em background
+2025-08-28 22:04:37,505 - INFO - matplotlib - Carregado em background
+2025-08-28 22:04:37,613 - INFO - cryptography - Carregado em background
+2025-08-28 22:04:37,762 - INFO - reportlab - Carregado em background
+2025-08-28 22:04:38,443 - INFO - flask - Carregado em background
+2025-08-28 22:04:38,545 - INFO - scikit-learn - Não disponível
+2025-08-28 22:04:38,547 - INFO - bcrypt - Não disponível
+2025-08-28 22:04:38,550 - INFO - PyJWT - Não disponível
+2025-08-28 22:04:39,636 - INFO - generated new fontManager
+2025-08-28 22:04:41,032 - ERROR - Erro ao inicializar interface: No module named 'pydoc'
+2025-08-28 22:04:41,134 - ERROR - Traceback: Traceback (most recent call last):
+  File "run_app_otimizado.py", line 380, in inicializar_interface_rapida
+    from interface import ApostasApp
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "interface.py", line 20, in <module>
+    from main import DatabaseManager, Aposta
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "main.py", line 21, in <module>
+    import seaborn as sns
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\__init__.py", line 5, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\relational.py", line 18, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\axisgrid.py", line 19, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\_docstrings.py", line 2, in <module>
+ModuleNotFoundError: No module named 'pydoc'
+
+2025-08-28 22:04:41,134 - ERROR - Erro crítico: No module named 'pydoc'
+2025-08-28 22:04:41,163 - ERROR - Traceback: Traceback (most recent call last):
+  File "run_app_otimizado.py", line 465, in main
+    initializer.inicializar_interface_rapida()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "run_app_otimizado.py", line 380, in inicializar_interface_rapida
+    from interface import ApostasApp
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "interface.py", line 20, in <module>
+    from main import DatabaseManager, Aposta
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "main.py", line 21, in <module>
+    import seaborn as sns
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\__init__.py", line 5, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\relational.py", line 18, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\axisgrid.py", line 19, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\_docstrings.py", line 2, in <module>
+ModuleNotFoundError: No module named 'pydoc'
+
+2025-08-28 22:08:27,916 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-28 22:08:27,918 - INFO - Verificando: Módulos essenciais
+2025-08-28 22:08:27,929 - INFO - customtkinter - Carregado do cache
+2025-08-28 22:08:27,934 - INFO - tkinter - Carregado do cache
+2025-08-28 22:08:27,938 - INFO - sqlite3 - Carregado do cache
+2025-08-28 22:08:27,947 - INFO - Verificando: Arquivos
+2025-08-28 22:08:27,954 - INFO - Verificando: Diretórios
+2025-08-28 22:08:27,968 - INFO - Verificando: Configurações
+2025-08-28 22:08:27,985 - INFO - Inicialização otimizada concluída!
+2025-08-28 22:08:27,985 - INFO - Tempo de inicialização: 0.57s
+2025-08-28 22:08:28,433 - INFO - scikit-learn - Não disponível
+2025-08-28 22:08:28,435 - INFO - bcrypt - Não disponível
+2025-08-28 22:08:28,437 - INFO - PyJWT - Não disponível
+2025-08-28 22:08:30,889 - INFO - generated new fontManager
+2025-08-28 22:08:32,474 - ERROR - Erro ao inicializar interface: No module named 'pydoc'
+2025-08-28 22:08:32,488 - ERROR - Traceback: Traceback (most recent call last):
+  File "run_app_otimizado.py", line 380, in inicializar_interface_rapida
+    from interface import ApostasApp
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "interface.py", line 20, in <module>
+    from main import DatabaseManager, Aposta
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "main.py", line 21, in <module>
+    import seaborn as sns
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\__init__.py", line 5, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\relational.py", line 18, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\axisgrid.py", line 19, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\_docstrings.py", line 2, in <module>
+ModuleNotFoundError: No module named 'pydoc'
+
+2025-08-28 22:08:32,489 - ERROR - Erro crítico: No module named 'pydoc'
+2025-08-28 22:08:32,496 - ERROR - Traceback: Traceback (most recent call last):
+  File "run_app_otimizado.py", line 465, in main
+    initializer.inicializar_interface_rapida()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "run_app_otimizado.py", line 380, in inicializar_interface_rapida
+    from interface import ApostasApp
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "interface.py", line 20, in <module>
+    from main import DatabaseManager, Aposta
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "main.py", line 21, in <module>
+    import seaborn as sns
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\__init__.py", line 5, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\relational.py", line 18, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\axisgrid.py", line 19, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\_docstrings.py", line 2, in <module>
+ModuleNotFoundError: No module named 'pydoc'
+
+2025-08-29 18:40:10,093 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-29 18:40:10,094 - INFO - Verificando: Módulos essenciais
+2025-08-29 18:40:10,099 - INFO - customtkinter - Carregado do cache
+2025-08-29 18:40:10,105 - INFO - tkinter - Carregado do cache
+2025-08-29 18:40:10,112 - INFO - sqlite3 - Carregado do cache
+2025-08-29 18:40:10,115 - INFO - Verificando: Arquivos
+2025-08-29 18:40:10,126 - INFO - Verificando: Diretórios
+2025-08-29 18:40:10,140 - INFO - Verificando: Configurações
+2025-08-29 18:40:10,156 - INFO - Inicialização otimizada concluída!
+2025-08-29 18:40:10,156 - INFO - Tempo de inicialização: 0.49s
+2025-08-29 18:40:10,609 - INFO - scikit-learn - Não disponível
+2025-08-29 18:40:10,612 - INFO - bcrypt - Não disponível
+2025-08-29 18:40:10,616 - INFO - PyJWT - Não disponível
+2025-08-29 18:40:13,894 - INFO - generated new fontManager
+2025-08-29 18:40:15,855 - ERROR - Erro ao inicializar interface: No module named 'pydoc'
+2025-08-29 18:40:15,957 - ERROR - Traceback: Traceback (most recent call last):
+  File "run_app_otimizado.py", line 380, in inicializar_interface_rapida
+    from interface import ApostasApp
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "interface.py", line 20, in <module>
+    from main import DatabaseManager, Aposta
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "main.py", line 21, in <module>
+    import seaborn as sns
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\__init__.py", line 5, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\relational.py", line 18, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\axisgrid.py", line 19, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\_docstrings.py", line 2, in <module>
+ModuleNotFoundError: No module named 'pydoc'
+
+2025-08-29 18:40:15,957 - ERROR - Erro crítico: No module named 'pydoc'
+2025-08-29 18:40:15,968 - ERROR - Traceback: Traceback (most recent call last):
+  File "run_app_otimizado.py", line 465, in main
+    initializer.inicializar_interface_rapida()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "run_app_otimizado.py", line 380, in inicializar_interface_rapida
+    from interface import ApostasApp
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "interface.py", line 20, in <module>
+    from main import DatabaseManager, Aposta
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "main.py", line 21, in <module>
+    import seaborn as sns
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\__init__.py", line 5, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\relational.py", line 18, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\axisgrid.py", line 19, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 450, in exec_module
+  File "seaborn\_docstrings.py", line 2, in <module>
+ModuleNotFoundError: No module named 'pydoc'
+
+2025-08-29 18:51:02,244 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-29 18:51:02,251 - __main__ - INFO - ==================================================
+2025-08-29 18:51:02,253 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-29 18:51:02,258 - __main__ - INFO - ==================================================
+2025-08-29 18:51:02,261 - __main__ - INFO - Sistema Operacional: nt
+2025-08-29 18:51:02,263 - __main__ - INFO - Plataforma: win32
+2025-08-29 18:51:02,264 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-29 18:51:02,266 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-29 18:51:02,267 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-29 18:51:02.267797
+2025-08-29 18:51:02,269 - __main__ - INFO - ==================================================
+2025-08-29 18:51:02,274 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-29 18:51:02,275 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-29 18:51:02,277 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-29 18:51:02,280 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-29 18:51:06,532 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-29 18:51:14,924 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-29 18:51:15,643 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-29 18:51:15,668 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-29 18:51:15,676 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-29 18:51:16,601 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-29 18:51:16,625 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 18:51:16,649 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 18:51:16,670 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 18:51:16,679 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 18:51:16,684 - __main__ - INFO - ✅ Dependências - OK
+2025-08-29 18:51:16,684 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-29 18:51:16,688 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-29 18:51:16,690 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-29 18:51:16,715 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-29 18:51:16,722 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-29 18:51:16,733 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-29 18:51:16,751 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 18:51:16,764 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-29 18:51:16,771 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-29 18:51:16,791 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-29 18:51:16,820 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-29 18:51:16,838 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-29 18:51:16,914 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-29 18:51:17,012 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-29 18:51:17,030 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-29 18:51:17,038 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-29 18:51:17,067 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-29 18:51:17,097 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-29 18:51:17,114 - __main__ - INFO - ✅ Configurações - OK
+2025-08-29 18:51:17,132 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-29 18:51:17,137 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-29 18:51:17,150 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-29 18:51:17,614 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-29 18:51:17,625 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-29 18:51:56,934 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-29 18:51:56,935 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-29 18:53:10,310 - __main__ - INFO - 👋 Aplicação encerrada normalmente
+2025-08-29 18:57:50,354 - WARNING - Não foi possível criar splash screen: unknown option "-height"
+2025-08-29 18:57:50,356 - WARNING - Splash screen não disponível - continuando sem ela
+2025-08-29 18:57:50,360 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-29 18:57:53,608 - INFO - customtkinter - Carregado e cacheado
+2025-08-29 18:57:53,640 - INFO - tkinter - Carregado e cacheado
+2025-08-29 18:57:53,696 - INFO - sqlite3 - Carregado e cacheado
+2025-08-29 18:57:53,977 - INFO - Configuração config.json carregada e cacheada
+2025-08-29 18:57:53,991 - INFO - Configuração configuracoes.json carregada e cacheada
+2025-08-29 18:57:54,705 - INFO - Inicialização otimizada concluída!
+2025-08-29 18:57:54,722 - INFO - Tempo de inicialização: 9.66s
+2025-08-29 18:57:59,916 - INFO - pandas - Carregado em background
+2025-08-29 18:58:00,042 - INFO - matplotlib - Carregado em background
+2025-08-29 18:58:00,301 - INFO - cryptography - Carregado em background
+2025-08-29 18:58:00,669 - INFO - reportlab - Carregado em background
+2025-08-29 18:58:02,988 - INFO - flask - Carregado em background
+2025-08-29 18:58:03,120 - INFO - scikit-learn - Não disponível
+2025-08-29 18:58:03,132 - INFO - bcrypt - Não disponível
+2025-08-29 18:58:03,147 - INFO - PyJWT - Não disponível
+2025-08-29 18:58:36,314 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-29 18:58:36,761 - INFO - customtkinter - Carregado do cache
+2025-08-29 18:58:36,796 - INFO - tkinter - Carregado do cache
+2025-08-29 18:58:36,835 - INFO - sqlite3 - Carregado do cache
+2025-08-29 18:58:37,123 - INFO - Configuração config.json carregada do cache
+2025-08-29 18:58:37,140 - INFO - Configuração configuracoes.json carregada do cache
+2025-08-29 18:58:37,707 - INFO - scikit-learn - Não disponível
+2025-08-29 18:58:37,731 - INFO - bcrypt - Não disponível
+2025-08-29 18:58:37,748 - INFO - PyJWT - Não disponível
+2025-08-29 18:58:37,860 - INFO - Inicialização otimizada concluída!
+2025-08-29 18:58:37,892 - INFO - Tempo de inicialização: 3.03s
+2025-08-29 18:59:04,661 - INFO - Interface carregada - Aplicação pronta!
+2025-08-29 19:00:59,114 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-29 19:00:59,543 - INFO - customtkinter - Carregado do cache
+2025-08-29 19:00:59,601 - INFO - tkinter - Carregado do cache
+2025-08-29 19:00:59,644 - INFO - sqlite3 - Carregado do cache
+2025-08-29 19:00:59,939 - INFO - Configuração config.json carregada do cache
+2025-08-29 19:01:00,014 - INFO - Configuração configuracoes.json carregada do cache
+2025-08-29 19:01:00,604 - INFO - scikit-learn - Não disponível
+2025-08-29 19:01:00,621 - INFO - bcrypt - Não disponível
+2025-08-29 19:01:00,623 - INFO - PyJWT - Não disponível
+2025-08-29 19:01:00,758 - INFO - Inicialização otimizada concluída!
+2025-08-29 19:01:00,759 - INFO - Tempo de inicialização: 3.65s
+2025-08-29 19:01:13,616 - INFO - Interface carregada - Aplicação pronta!
+2025-08-29 19:05:26,840 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-29 19:05:26,908 - INFO - customtkinter - Carregado do cache
+2025-08-29 19:05:26,935 - INFO - tkinter - Carregado do cache
+2025-08-29 19:05:26,953 - INFO - sqlite3 - Carregado do cache
+2025-08-29 19:05:27,125 - INFO - Configuração config.json carregada do cache
+2025-08-29 19:05:27,128 - INFO - Configuração configuracoes.json carregada do cache
+2025-08-29 19:05:27,173 - INFO - Inicialização otimizada concluída!
+2025-08-29 19:05:27,176 - INFO - Tempo de inicialização: 2.85s
+2025-08-29 19:05:28,902 - INFO - scikit-learn - Não disponível
+2025-08-29 19:05:28,908 - INFO - bcrypt - Não disponível
+2025-08-29 19:05:28,915 - INFO - PyJWT - Não disponível
+2025-08-29 19:05:58,755 - INFO - Interface carregada - Aplicação pronta!
+2025-08-29 19:11:30,214 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-29 19:11:31,101 - INFO - customtkinter - Carregado do cache
+2025-08-29 19:11:31,131 - INFO - tkinter - Carregado do cache
+2025-08-29 19:11:31,163 - INFO - sqlite3 - Carregado do cache
+2025-08-29 19:11:32,219 - INFO - Configuração config.json carregada do cache
+2025-08-29 19:11:32,227 - INFO - Configuração configuracoes.json carregada do cache
+2025-08-29 19:11:32,881 - INFO - scikit-learn - Não disponível
+2025-08-29 19:11:32,949 - INFO - bcrypt - Não disponível
+2025-08-29 19:11:33,007 - INFO - PyJWT - Não disponível
+2025-08-29 19:11:33,317 - INFO - Inicialização otimizada concluída!
+2025-08-29 19:11:33,331 - INFO - Tempo de inicialização: 4.68s
+2025-08-29 19:11:46,760 - INFO - Interface carregada - Aplicação pronta!
+2025-08-29 19:15:14,435 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-29 19:15:15,307 - INFO - customtkinter - Carregado do cache
+2025-08-29 19:15:15,335 - INFO - tkinter - Carregado do cache
+2025-08-29 19:15:15,365 - INFO - sqlite3 - Carregado do cache
+2025-08-29 19:15:16,402 - INFO - Configuração config.json carregada do cache
+2025-08-29 19:15:16,403 - INFO - Configuração configuracoes.json carregada do cache
+2025-08-29 19:15:16,953 - INFO - scikit-learn - Não disponível
+2025-08-29 19:15:16,973 - INFO - bcrypt - Não disponível
+2025-08-29 19:15:16,985 - INFO - PyJWT - Não disponível
+2025-08-29 19:15:17,469 - INFO - Inicialização otimizada concluída!
+2025-08-29 19:15:17,480 - INFO - Tempo de inicialização: 4.67s
+2025-08-29 19:15:40,212 - INFO - Interface carregada - Aplicação pronta!
+2025-08-29 20:28:46,888 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-29 20:28:47,729 - INFO - customtkinter - Carregado do cache
+2025-08-29 20:28:47,748 - INFO - tkinter - Carregado do cache
+2025-08-29 20:28:47,762 - INFO - sqlite3 - Carregado do cache
+2025-08-29 20:28:48,770 - INFO - Configuração config.json carregada do cache
+2025-08-29 20:28:48,780 - INFO - Configuração configuracoes.json carregada do cache
+2025-08-29 20:28:49,320 - INFO - scikit-learn - Não disponível
+2025-08-29 20:28:49,323 - INFO - bcrypt - Não disponível
+2025-08-29 20:28:49,328 - INFO - PyJWT - Não disponível
+2025-08-29 20:28:49,842 - INFO - Inicialização otimizada concluída!
+2025-08-29 20:28:49,843 - INFO - Tempo de inicialização: 5.24s
+2025-08-29 20:29:21,788 - INFO - Interface carregada - Aplicação pronta!
+2025-08-29 20:31:49,650 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-29 20:31:50,708 - INFO - customtkinter - Carregado do cache
+2025-08-29 20:31:50,764 - INFO - tkinter - Carregado do cache
+2025-08-29 20:31:50,864 - INFO - sqlite3 - Carregado do cache
+2025-08-29 20:31:52,356 - INFO - Configuração config.json carregada do cache
+2025-08-29 20:31:52,406 - INFO - Configuração configuracoes.json carregada do cache
+2025-08-29 20:31:53,112 - INFO - scikit-learn - Não disponível
+2025-08-29 20:31:53,136 - INFO - bcrypt - Não disponível
+2025-08-29 20:31:53,156 - INFO - PyJWT - Não disponível
+2025-08-29 20:31:53,554 - INFO - Inicialização otimizada concluída!
+2025-08-29 20:31:53,575 - INFO - Tempo de inicialização: 8.63s
+2025-08-29 20:32:25,643 - INFO - Interface carregada - Aplicação pronta!
+2025-08-29 20:33:41,265 - INFO - Aplicação encerrada normalmente
+2025-08-29 20:39:38,426 - INFO - Iniciando Apostas Desportivas v2.1 - Modo Otimizado
+2025-08-29 20:39:39,706 - INFO - customtkinter - Carregado do cache
+2025-08-29 20:39:39,762 - INFO - tkinter - Carregado do cache
+2025-08-29 20:39:39,880 - INFO - sqlite3 - Carregado do cache
+2025-08-29 20:39:40,979 - INFO - Configuração config.json carregada do cache
+2025-08-29 20:39:40,982 - INFO - Configuração configuracoes.json carregada do cache
+2025-08-29 20:39:41,513 - INFO - scikit-learn - Não disponível
+2025-08-29 20:39:41,521 - INFO - bcrypt - Não disponível
+2025-08-29 20:39:41,524 - INFO - PyJWT - Não disponível
+2025-08-29 20:39:42,060 - INFO - Inicialização otimizada concluída!
+2025-08-29 20:39:42,068 - INFO - Tempo de inicialização: 7.81s
+2025-08-29 20:40:00,758 - INFO - Interface carregada - Aplicação pronta!
+2025-08-29 20:41:12,796 - INFO - Aplicação encerrada normalmente
+2025-08-29 21:22:10,768 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-29 21:22:10,781 - __main__ - INFO - ==================================================
+2025-08-29 21:22:10,782 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-29 21:22:10,783 - __main__ - INFO - ==================================================
+2025-08-29 21:22:10,783 - __main__ - INFO - Sistema Operacional: nt
+2025-08-29 21:22:10,784 - __main__ - INFO - Plataforma: win32
+2025-08-29 21:22:10,786 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-29 21:22:10,789 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-29 21:22:10,790 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-29 21:22:10.790111
+2025-08-29 21:22:10,790 - __main__ - INFO - ==================================================
+2025-08-29 21:22:10,791 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-29 21:22:10,793 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-29 21:22:10,795 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-29 21:22:10,795 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-29 21:22:12,961 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-29 21:22:16,002 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-29 21:22:16,349 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-29 21:22:16,363 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-29 21:22:16,374 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-29 21:22:17,140 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-29 21:22:17,145 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:22:17,149 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:22:17,152 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:22:17,155 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:22:17,155 - __main__ - INFO - ✅ Dependências - OK
+2025-08-29 21:22:17,156 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-29 21:22:17,157 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-29 21:22:17,161 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-29 21:22:17,162 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-29 21:22:17,163 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-29 21:22:17,164 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-29 21:22:17,167 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:22:17,168 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-29 21:22:17,169 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-29 21:22:17,171 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-29 21:22:17,174 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-29 21:22:17,182 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-29 21:22:17,184 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-29 21:22:17,185 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-29 21:22:17,187 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-29 21:22:17,188 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-29 21:22:17,189 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-29 21:22:17,189 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-29 21:22:17,192 - __main__ - INFO - ✅ Configurações - OK
+2025-08-29 21:22:17,194 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-29 21:22:17,195 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-29 21:22:17,196 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-29 21:22:17,313 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-29 21:22:17,317 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-29 21:22:31,024 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-29 21:22:31,028 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-29 21:28:42,053 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-29 21:28:42,267 - __main__ - INFO - ==================================================
+2025-08-29 21:28:42,268 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-29 21:28:42,268 - __main__ - INFO - ==================================================
+2025-08-29 21:28:42,269 - __main__ - INFO - Sistema Operacional: nt
+2025-08-29 21:28:42,269 - __main__ - INFO - Plataforma: win32
+2025-08-29 21:28:42,270 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-29 21:28:42,271 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-29 21:28:42,272 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-29 21:28:42.272499
+2025-08-29 21:28:42,272 - __main__ - INFO - ==================================================
+2025-08-29 21:28:42,598 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-29 21:28:42,601 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-29 21:28:42,604 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-29 21:28:42,930 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-29 21:28:44,577 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-29 21:28:46,674 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-29 21:28:46,925 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-29 21:28:46,938 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-29 21:28:46,945 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-29 21:28:47,633 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-29 21:28:47,637 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:28:47,641 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:28:47,648 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:28:47,652 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:28:47,652 - __main__ - INFO - ✅ Dependências - OK
+2025-08-29 21:28:47,963 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-29 21:28:47,965 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-29 21:28:47,966 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-29 21:28:47,967 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-29 21:28:47,967 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-29 21:28:47,968 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-29 21:28:47,969 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:28:47,970 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-29 21:28:47,971 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-29 21:28:48,280 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-29 21:28:48,283 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-29 21:28:48,285 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-29 21:28:48,286 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-29 21:28:48,287 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-29 21:28:48,288 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-29 21:28:48,290 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-29 21:28:48,290 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-29 21:28:48,607 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-29 21:28:48,612 - __main__ - INFO - ✅ Configurações - OK
+2025-08-29 21:28:48,825 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-29 21:28:49,169 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-29 21:28:49,169 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-29 21:28:49,237 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-29 21:28:49,239 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-29 21:28:58,594 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-29 21:28:58,595 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-29 21:30:42,462 - run_app - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-29 21:30:42,678 - run_app - INFO - ==================================================
+2025-08-29 21:30:42,679 - run_app - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-29 21:30:42,680 - run_app - INFO - ==================================================
+2025-08-29 21:30:42,680 - run_app - INFO - Sistema Operacional: nt
+2025-08-29 21:30:42,681 - run_app - INFO - Plataforma: win32
+2025-08-29 21:30:42,688 - run_app - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-29 21:30:42,690 - run_app - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-29 21:30:42,691 - run_app - INFO - Data/Hora de Inicialização: 2025-08-29 21:30:42.691026
+2025-08-29 21:30:42,691 - run_app - INFO - ==================================================
+2025-08-29 21:30:43,012 - run_app - INFO - 🔍 Verificando: Versão do Python
+2025-08-29 21:30:43,021 - run_app - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-29 21:30:43,027 - run_app - INFO - ✅ Versão do Python - OK
+2025-08-29 21:30:43,355 - run_app - INFO - 🔍 Verificando: Dependências
+2025-08-29 21:30:45,152 - run_app - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-29 21:30:46,705 - run_app - INFO - ✅ Módulo pandas - Disponível
+2025-08-29 21:30:46,929 - run_app - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-29 21:30:46,937 - run_app - INFO - ✅ Módulo cryptography - Disponível
+2025-08-29 21:30:46,944 - run_app - INFO - ✅ Módulo reportlab - Disponível
+2025-08-29 21:30:47,426 - run_app - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-29 21:30:47,431 - run_app - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:30:47,436 - run_app - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:30:47,444 - run_app - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:30:47,449 - run_app - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:30:47,451 - run_app - INFO - ✅ Dependências - OK
+2025-08-29 21:30:47,767 - run_app - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-29 21:30:47,768 - run_app - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-29 21:30:47,769 - run_app - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-29 21:30:47,769 - run_app - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-29 21:30:47,770 - run_app - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-29 21:30:47,771 - run_app - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-29 21:30:47,771 - run_app - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 21:30:47,772 - run_app - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-29 21:30:47,773 - run_app - INFO - ✅ Arquivos necessários - OK
+2025-08-29 21:30:48,087 - run_app - INFO - 🔍 Verificando: Diretórios
+2025-08-29 21:30:48,089 - run_app - INFO - ✅ Diretório logs - Verificado
+2025-08-29 21:30:48,091 - run_app - INFO - ✅ Diretório exports - Verificado
+2025-08-29 21:30:48,093 - run_app - INFO - ✅ Diretório backups - Verificado
+2025-08-29 21:30:48,095 - run_app - INFO - ✅ Diretório data - Verificado
+2025-08-29 21:30:48,097 - run_app - INFO - ✅ Diretório traducoes - Verificado
+2025-08-29 21:30:48,098 - run_app - INFO - ✅ Diretório temas - Verificado
+2025-08-29 21:30:48,099 - run_app - INFO - ✅ Diretórios - OK
+2025-08-29 21:30:48,413 - run_app - INFO - 🔍 Verificando: Configurações
+2025-08-29 21:30:48,414 - run_app - INFO - ✅ Configurações - OK
+2025-08-29 21:30:48,622 - run_app - INFO - ✅ Todas as verificações passaram!
+2025-08-29 21:30:48,977 - run_app - INFO - 🎯 Carregando interface principal...
+2025-08-29 21:30:48,978 - run_app - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-29 21:30:49,043 - run_app - INFO - ✅ Sistema de usuários inicializado
+2025-08-29 21:30:49,044 - run_app - INFO - 🤖 Sistema de ML disponível
+2025-08-29 21:30:56,750 - run_app - INFO - ✅ Interface carregada com sucesso
+2025-08-29 21:30:56,751 - run_app - INFO - 🎉 Aplicação iniciada!
+2025-08-29 22:11:50,490 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-29 22:11:50,698 - __main__ - INFO - ==================================================
+2025-08-29 22:11:50,699 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-29 22:11:50,699 - __main__ - INFO - ==================================================
+2025-08-29 22:11:50,702 - __main__ - INFO - Sistema Operacional: nt
+2025-08-29 22:11:50,703 - __main__ - INFO - Plataforma: win32
+2025-08-29 22:11:50,704 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-29 22:11:50,704 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-29 22:11:50,705 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-29 22:11:50.705199
+2025-08-29 22:11:50,705 - __main__ - INFO - ==================================================
+2025-08-29 22:11:51,027 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-29 22:11:51,028 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-29 22:11:51,029 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-29 22:11:51,344 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-29 22:11:52,435 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-29 22:11:54,081 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-29 22:11:54,356 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-29 22:11:54,369 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-29 22:11:54,376 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-29 22:11:54,862 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-29 22:11:54,865 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 22:11:54,867 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 22:11:54,869 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 22:11:54,873 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 22:11:54,873 - __main__ - INFO - ✅ Dependências - OK
+2025-08-29 22:11:55,190 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-29 22:11:55,194 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-29 22:11:55,197 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-29 22:11:55,200 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-29 22:11:55,202 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-29 22:11:55,202 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-29 22:11:55,203 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 22:11:55,205 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-29 22:11:55,206 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-29 22:11:55,534 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-29 22:11:55,535 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-29 22:11:55,536 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-29 22:11:55,540 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-29 22:11:55,543 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-29 22:11:55,546 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-29 22:11:55,548 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-29 22:11:55,550 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-29 22:11:55,865 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-29 22:11:55,868 - __main__ - INFO - ✅ Configurações - OK
+2025-08-29 22:11:56,078 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-29 22:11:56,431 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-29 22:11:56,432 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-29 22:11:56,507 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-29 22:11:56,511 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-29 22:12:03,153 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-29 22:12:03,154 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-29 22:18:59,082 - __main__ - INFO - 👋 Aplicação encerrada normalmente
+2025-08-29 22:45:45,419 - run_app - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-29 22:45:45,630 - run_app - INFO - ==================================================
+2025-08-29 22:45:45,632 - run_app - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-29 22:45:45,632 - run_app - INFO - ==================================================
+2025-08-29 22:45:45,633 - run_app - INFO - Sistema Operacional: nt
+2025-08-29 22:45:45,633 - run_app - INFO - Plataforma: win32
+2025-08-29 22:45:45,634 - run_app - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-29 22:45:45,635 - run_app - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-29 22:45:45,635 - run_app - INFO - Data/Hora de Inicialização: 2025-08-29 22:45:45.635471
+2025-08-29 22:45:45,635 - run_app - INFO - ==================================================
+2025-08-29 22:45:45,953 - run_app - INFO - 🔍 Verificando: Versão do Python
+2025-08-29 22:45:45,969 - run_app - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-29 22:45:45,977 - run_app - INFO - ✅ Versão do Python - OK
+2025-08-29 22:45:46,289 - run_app - INFO - 🔍 Verificando: Dependências
+2025-08-29 22:45:47,315 - run_app - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-29 22:45:48,718 - run_app - INFO - ✅ Módulo pandas - Disponível
+2025-08-29 22:45:48,949 - run_app - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-29 22:45:48,960 - run_app - INFO - ✅ Módulo cryptography - Disponível
+2025-08-29 22:45:48,967 - run_app - INFO - ✅ Módulo reportlab - Disponível
+2025-08-29 22:45:49,452 - run_app - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-29 22:45:49,458 - run_app - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 22:45:49,464 - run_app - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 22:45:49,467 - run_app - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 22:45:49,469 - run_app - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 22:45:49,471 - run_app - INFO - ✅ Dependências - OK
+2025-08-29 22:45:49,790 - run_app - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-29 22:45:49,791 - run_app - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-29 22:45:49,792 - run_app - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-29 22:45:49,792 - run_app - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-29 22:45:49,793 - run_app - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-29 22:45:49,794 - run_app - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-29 22:45:49,794 - run_app - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-29 22:45:49,795 - run_app - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-29 22:45:49,796 - run_app - INFO - ✅ Arquivos necessários - OK
+2025-08-29 22:45:50,105 - run_app - INFO - 🔍 Verificando: Diretórios
+2025-08-29 22:45:50,108 - run_app - INFO - ✅ Diretório logs - Verificado
+2025-08-29 22:45:50,110 - run_app - INFO - ✅ Diretório exports - Verificado
+2025-08-29 22:45:50,111 - run_app - INFO - ✅ Diretório backups - Verificado
+2025-08-29 22:45:50,113 - run_app - INFO - ✅ Diretório data - Verificado
+2025-08-29 22:45:50,114 - run_app - INFO - ✅ Diretório traducoes - Verificado
+2025-08-29 22:45:50,115 - run_app - INFO - ✅ Diretório temas - Verificado
+2025-08-29 22:45:50,116 - run_app - INFO - ✅ Diretórios - OK
+2025-08-29 22:45:50,431 - run_app - INFO - 🔍 Verificando: Configurações
+2025-08-29 22:45:50,433 - run_app - INFO - ✅ Configurações - OK
+2025-08-29 22:45:50,646 - run_app - INFO - ✅ Todas as verificações passaram!
+2025-08-29 22:45:51,040 - run_app - INFO - 🎯 Carregando interface principal...
+2025-08-29 22:45:51,059 - run_app - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-29 22:45:51,124 - run_app - INFO - ✅ Sistema de usuários inicializado
+2025-08-29 22:45:51,125 - run_app - INFO - 🤖 Sistema de ML disponível
+2025-08-29 22:45:58,441 - run_app - INFO - ✅ Interface carregada com sucesso
+2025-08-29 22:45:58,441 - run_app - INFO - 🎉 Aplicação iniciada!
+2025-08-30 08:23:04,447 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 08:23:04,697 - __main__ - INFO - ==================================================
+2025-08-30 08:23:04,851 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 08:23:04,851 - __main__ - INFO - ==================================================
+2025-08-30 08:23:04,852 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 08:23:04,852 - __main__ - INFO - Plataforma: win32
+2025-08-30 08:23:04,853 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 08:23:04,853 - __main__ - INFO - Diretório da Aplicação: c:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 08:23:04,854 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 08:23:04.854081
+2025-08-30 08:23:04,854 - __main__ - INFO - ==================================================
+2025-08-30 08:23:04,855 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 08:23:04,855 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 08:23:04,855 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 08:23:04,856 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 08:23:11,828 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 08:23:20,611 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 08:23:21,224 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 08:23:21,236 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 08:23:21,245 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 08:23:21,876 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 08:23:21,878 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:23:21,880 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:23:21,882 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:23:21,885 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:23:21,887 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 08:23:21,887 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 08:23:21,888 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 08:23:21,889 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 08:23:21,890 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 08:23:21,891 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 08:23:21,892 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 08:23:21,893 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:23:21,894 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 08:23:21,895 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 08:23:21,895 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 08:23:21,897 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 08:23:21,899 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 08:23:21,901 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 08:23:21,904 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 08:23:21,906 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 08:23:21,907 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 08:23:21,907 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 08:23:21,908 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 08:23:21,909 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 08:23:21,909 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 08:23:21,910 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 08:23:21,912 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 08:23:22,240 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 08:23:22,242 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 08:23:43,901 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 08:23:43,902 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 08:24:22,420 - __main__ - INFO - 👋 Aplicação encerrada normalmente
+2025-08-30 08:24:23,699 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 08:24:23,701 - __main__ - INFO - ==================================================
+2025-08-30 08:24:23,701 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 08:24:23,702 - __main__ - INFO - ==================================================
+2025-08-30 08:24:23,702 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 08:24:23,703 - __main__ - INFO - Plataforma: win32
+2025-08-30 08:24:23,703 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 08:24:23,704 - __main__ - INFO - Diretório da Aplicação: c:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 08:24:23,704 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 08:24:23.704466
+2025-08-30 08:24:23,704 - __main__ - INFO - ==================================================
+2025-08-30 08:24:23,705 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 08:24:23,705 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 08:24:23,705 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 08:24:23,706 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 08:24:24,650 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 08:24:26,060 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 08:24:26,280 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 08:24:26,287 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 08:24:26,293 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 08:24:26,747 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 08:24:26,749 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:24:26,752 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:24:26,756 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:24:26,760 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:24:26,760 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 08:24:26,761 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 08:24:26,762 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 08:24:26,763 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 08:24:26,765 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 08:24:26,766 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 08:24:26,767 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 08:24:26,767 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:24:26,768 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 08:24:26,769 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 08:24:26,769 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 08:24:26,771 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 08:24:26,773 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 08:24:26,775 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 08:24:26,776 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 08:24:26,777 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 08:24:26,779 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 08:24:26,779 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 08:24:26,780 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 08:24:26,781 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 08:24:26,781 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 08:24:26,781 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 08:24:26,782 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 08:24:26,829 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 08:24:26,830 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 08:24:31,866 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 08:24:31,866 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 08:27:51,391 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 08:27:51,607 - __main__ - INFO - ==================================================
+2025-08-30 08:27:51,608 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 08:27:51,608 - __main__ - INFO - ==================================================
+2025-08-30 08:27:51,609 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 08:27:51,609 - __main__ - INFO - Plataforma: win32
+2025-08-30 08:27:51,609 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 08:27:51,610 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 08:27:51,610 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 08:27:51.610805
+2025-08-30 08:27:51,611 - __main__ - INFO - ==================================================
+2025-08-30 08:27:51,925 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 08:27:51,926 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 08:27:51,926 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 08:27:52,246 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 08:27:53,381 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 08:27:55,261 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 08:27:55,499 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 08:27:55,507 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 08:27:55,519 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 08:27:56,037 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 08:27:56,044 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:27:56,047 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:27:56,050 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:27:56,053 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:27:56,054 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 08:27:56,364 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 08:27:56,365 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 08:27:56,366 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 08:27:56,366 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 08:27:56,367 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 08:27:56,368 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 08:27:56,368 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:27:56,369 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 08:27:56,369 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 08:27:56,683 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 08:27:56,684 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 08:27:56,686 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 08:27:56,687 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 08:27:56,690 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 08:27:56,693 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 08:27:56,694 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 08:27:56,695 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 08:27:56,999 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 08:27:57,001 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 08:27:57,216 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 08:27:58,278 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 08:27:58,280 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 08:27:58,330 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 08:27:58,331 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 08:28:04,188 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 08:28:04,189 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 08:30:26,593 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 08:30:26,806 - __main__ - INFO - ==================================================
+2025-08-30 08:30:26,807 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 08:30:26,809 - __main__ - INFO - ==================================================
+2025-08-30 08:30:26,810 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 08:30:26,810 - __main__ - INFO - Plataforma: win32
+2025-08-30 08:30:26,811 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 08:30:26,812 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 08:30:26,812 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 08:30:26.812510
+2025-08-30 08:30:26,813 - __main__ - INFO - ==================================================
+2025-08-30 08:30:27,128 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 08:30:27,128 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 08:30:27,129 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 08:30:27,443 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 08:30:28,290 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 08:30:29,507 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 08:30:29,696 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 08:30:29,705 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 08:30:29,711 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 08:30:30,062 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 08:30:30,064 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:30:30,065 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:30:30,070 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:30:30,071 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:30:30,072 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 08:30:30,381 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 08:30:30,383 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 08:30:30,384 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 08:30:30,386 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 08:30:30,387 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 08:30:30,388 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 08:30:30,389 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:30:30,390 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 08:30:30,390 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 08:30:30,702 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 08:30:30,703 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 08:30:30,705 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 08:30:30,706 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 08:30:30,708 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 08:30:30,710 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 08:30:30,712 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 08:30:30,712 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 08:30:31,023 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 08:30:31,025 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 08:30:31,237 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 08:30:32,316 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 08:30:32,318 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 08:30:32,379 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 08:30:32,383 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 08:30:37,138 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 08:30:37,139 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 08:33:06,767 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 08:33:06,984 - __main__ - INFO - ==================================================
+2025-08-30 08:33:06,985 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 08:33:06,986 - __main__ - INFO - ==================================================
+2025-08-30 08:33:06,986 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 08:33:06,987 - __main__ - INFO - Plataforma: win32
+2025-08-30 08:33:06,988 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 08:33:06,990 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 08:33:06,991 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 08:33:06.991173
+2025-08-30 08:33:06,991 - __main__ - INFO - ==================================================
+2025-08-30 08:33:07,306 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 08:33:07,307 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 08:33:07,308 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 08:33:07,616 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 08:33:08,498 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 08:33:09,814 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 08:33:10,022 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 08:33:10,030 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 08:33:10,037 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 08:33:10,428 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 08:33:10,433 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:33:10,436 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:33:10,440 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:33:10,443 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:33:10,444 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 08:33:10,753 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 08:33:10,754 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 08:33:10,755 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 08:33:10,757 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 08:33:10,758 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 08:33:10,759 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 08:33:10,760 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 08:33:10,761 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 08:33:10,762 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 08:33:11,076 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 08:33:11,079 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 08:33:11,081 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 08:33:11,083 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 08:33:11,084 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 08:33:11,086 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 08:33:11,088 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 08:33:11,088 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 08:33:11,399 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 08:33:11,401 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 08:33:11,608 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 08:33:12,672 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 08:33:12,674 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 08:33:12,730 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 08:33:12,732 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 08:33:17,946 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 08:33:17,946 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 13:35:26,587 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 13:35:26,803 - __main__ - INFO - ==================================================
+2025-08-30 13:35:26,803 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 13:35:26,804 - __main__ - INFO - ==================================================
+2025-08-30 13:35:26,804 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 13:35:26,804 - __main__ - INFO - Plataforma: win32
+2025-08-30 13:35:26,805 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 13:35:26,805 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 13:35:26,806 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 13:35:26.806429
+2025-08-30 13:35:26,807 - __main__ - INFO - ==================================================
+2025-08-30 13:35:27,116 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 13:35:27,123 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 13:35:27,125 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 13:35:27,443 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 13:35:29,549 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 13:35:35,823 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 13:35:36,358 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 13:35:36,374 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 13:35:36,383 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 13:35:37,097 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 13:35:37,099 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:35:37,102 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:35:37,105 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:35:37,108 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:35:37,108 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 13:35:37,415 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 13:35:37,416 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 13:35:37,416 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 13:35:37,417 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 13:35:37,418 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 13:35:37,419 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 13:35:37,420 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:35:37,421 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 13:35:37,421 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 13:35:37,729 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 13:35:37,731 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 13:35:37,732 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 13:35:37,733 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 13:35:37,734 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 13:35:37,735 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 13:35:37,736 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 13:35:37,736 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 13:35:38,047 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 13:35:38,048 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 13:35:38,256 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 13:35:39,338 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 13:35:39,339 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 13:35:39,592 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 13:35:39,593 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 13:36:09,356 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 13:36:09,359 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 13:41:33,847 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 13:41:34,106 - __main__ - INFO - ==================================================
+2025-08-30 13:41:34,110 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 13:41:34,115 - __main__ - INFO - ==================================================
+2025-08-30 13:41:34,128 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 13:41:34,141 - __main__ - INFO - Plataforma: win32
+2025-08-30 13:41:34,177 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 13:41:34,196 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 13:41:34,223 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 13:41:34.223242
+2025-08-30 13:41:34,229 - __main__ - INFO - ==================================================
+2025-08-30 13:41:34,653 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 13:41:34,676 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 13:41:34,698 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 13:41:35,089 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 13:41:39,669 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 13:41:44,143 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 13:41:45,064 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 13:41:45,155 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 13:41:45,190 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 13:41:46,313 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 13:41:46,318 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:41:46,324 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:41:46,334 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:41:46,339 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:41:46,340 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 13:41:46,690 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 13:41:46,717 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 13:41:46,747 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 13:41:46,756 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 13:41:46,801 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 13:41:46,807 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 13:41:46,812 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:41:46,821 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 13:41:46,822 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 13:41:47,140 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 13:41:47,161 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 13:41:47,177 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 13:41:47,181 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 13:41:47,189 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 13:41:47,197 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 13:41:47,211 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 13:41:47,212 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 13:41:47,555 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 13:41:47,585 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 13:41:47,876 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 13:41:49,729 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 13:41:49,746 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 13:41:50,211 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 13:41:50,256 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 13:42:13,340 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 13:42:13,340 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 13:43:55,097 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 13:43:55,310 - __main__ - INFO - ==================================================
+2025-08-30 13:43:55,311 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 13:43:55,312 - __main__ - INFO - ==================================================
+2025-08-30 13:43:55,312 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 13:43:55,312 - __main__ - INFO - Plataforma: win32
+2025-08-30 13:43:55,312 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 13:43:55,313 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 13:43:55,313 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 13:43:55.313529
+2025-08-30 13:43:55,313 - __main__ - INFO - ==================================================
+2025-08-30 13:43:55,628 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 13:43:55,628 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 13:43:55,628 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 13:43:55,938 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 13:43:57,193 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 13:43:59,520 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 13:43:59,824 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 13:43:59,833 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 13:43:59,843 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 13:44:00,392 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 13:44:00,395 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:44:00,397 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:44:00,399 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:44:00,402 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:44:00,402 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 13:44:00,717 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 13:44:00,719 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 13:44:00,720 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 13:44:00,721 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 13:44:00,722 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 13:44:00,725 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 13:44:00,728 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:44:00,735 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 13:44:00,737 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 13:44:01,055 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 13:44:01,065 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 13:44:01,069 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 13:44:01,074 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 13:44:01,080 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 13:44:01,082 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 13:44:01,084 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 13:44:01,085 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 13:44:01,398 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 13:44:01,400 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 13:44:01,611 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 13:44:02,680 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 13:44:02,681 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 13:44:02,759 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 13:44:02,761 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 13:44:12,341 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 13:44:12,342 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 13:47:23,701 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 13:47:23,920 - __main__ - INFO - ==================================================
+2025-08-30 13:47:23,923 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 13:47:23,923 - __main__ - INFO - ==================================================
+2025-08-30 13:47:23,924 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 13:47:23,925 - __main__ - INFO - Plataforma: win32
+2025-08-30 13:47:23,925 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 13:47:23,926 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 13:47:23,927 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 13:47:23.926933
+2025-08-30 13:47:23,927 - __main__ - INFO - ==================================================
+2025-08-30 13:47:24,249 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 13:47:24,250 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 13:47:24,251 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 13:47:24,566 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 13:47:25,742 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 13:47:27,338 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 13:47:27,590 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 13:47:27,600 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 13:47:27,608 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 13:47:28,087 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 13:47:28,090 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:47:28,093 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:47:28,096 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:47:28,100 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:47:28,101 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 13:47:28,409 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 13:47:28,410 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 13:47:28,414 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 13:47:28,415 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 13:47:28,416 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 13:47:28,419 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 13:47:28,420 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:47:28,420 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 13:47:28,421 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 13:47:28,732 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 13:47:28,782 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 13:47:28,815 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 13:47:28,821 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 13:47:28,824 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 13:47:28,826 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 13:47:28,828 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 13:47:28,829 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 13:47:29,140 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 13:47:29,153 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 13:47:29,365 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 13:47:30,459 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 13:47:30,462 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 13:47:30,548 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 13:47:30,549 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 13:47:38,955 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 13:47:38,955 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 13:50:01,824 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 13:50:02,053 - __main__ - INFO - ==================================================
+2025-08-30 13:50:02,053 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 13:50:02,054 - __main__ - INFO - ==================================================
+2025-08-30 13:50:02,054 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 13:50:02,056 - __main__ - INFO - Plataforma: win32
+2025-08-30 13:50:02,058 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 13:50:02,060 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 13:50:02,061 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 13:50:02.060945
+2025-08-30 13:50:02,062 - __main__ - INFO - ==================================================
+2025-08-30 13:50:02,385 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 13:50:02,385 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 13:50:02,386 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 13:50:02,695 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 13:50:04,575 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 13:50:06,248 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 13:50:06,625 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 13:50:06,637 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 13:50:06,644 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 13:50:07,254 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 13:50:07,273 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:50:07,286 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:50:07,291 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:50:07,303 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:50:07,308 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 13:50:07,637 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 13:50:07,638 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 13:50:07,639 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 13:50:07,640 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 13:50:07,641 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 13:50:07,642 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 13:50:07,643 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:50:07,647 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 13:50:07,647 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 13:50:07,966 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 13:50:07,968 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 13:50:07,969 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 13:50:07,970 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 13:50:07,971 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 13:50:07,973 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 13:50:07,974 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 13:50:07,975 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 13:50:08,297 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 13:50:08,301 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 13:50:08,513 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 13:50:09,561 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 13:50:09,562 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 13:50:09,625 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 13:50:09,627 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 13:50:17,946 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 13:50:17,947 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 13:52:48,537 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 13:52:48,753 - __main__ - INFO - ==================================================
+2025-08-30 13:52:48,754 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 13:52:48,754 - __main__ - INFO - ==================================================
+2025-08-30 13:52:48,757 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 13:52:48,758 - __main__ - INFO - Plataforma: win32
+2025-08-30 13:52:48,759 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 13:52:48,761 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 13:52:48,762 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 13:52:48.761992
+2025-08-30 13:52:48,764 - __main__ - INFO - ==================================================
+2025-08-30 13:52:49,086 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 13:52:49,097 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 13:52:49,099 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 13:52:49,412 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 13:52:50,460 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 13:52:52,068 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 13:52:52,303 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 13:52:52,318 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 13:52:52,325 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 13:52:52,999 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 13:52:53,001 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:52:53,003 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:52:53,006 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:52:53,009 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:52:53,009 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 13:52:53,316 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 13:52:53,317 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 13:52:53,318 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 13:52:53,319 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 13:52:53,320 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 13:52:53,321 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 13:52:53,322 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:52:53,322 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 13:52:53,323 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 13:52:53,631 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 13:52:53,633 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 13:52:53,635 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 13:52:53,636 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 13:52:53,637 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 13:52:53,638 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 13:52:53,640 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 13:52:53,641 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 13:52:53,952 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 13:52:53,953 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 13:52:54,160 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 13:52:55,217 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 13:52:55,219 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 13:52:55,288 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 13:52:55,290 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 13:53:01,978 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 13:53:01,978 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 13:54:13,069 - __main__ - INFO - 👋 Aplicação encerrada normalmente
+2025-08-30 13:55:56,920 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 13:55:57,128 - __main__ - INFO - ==================================================
+2025-08-30 13:55:57,128 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 13:55:57,128 - __main__ - INFO - ==================================================
+2025-08-30 13:55:57,129 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 13:55:57,129 - __main__ - INFO - Plataforma: win32
+2025-08-30 13:55:57,130 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 13:55:57,132 - __main__ - INFO - Diretório da Aplicação: c:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 13:55:57,133 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 13:55:57.133076
+2025-08-30 13:55:57,133 - __main__ - INFO - ==================================================
+2025-08-30 13:55:57,443 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 13:55:57,444 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 13:55:57,445 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 13:55:57,757 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 13:55:58,865 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 13:56:00,373 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 13:56:00,606 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 13:56:00,613 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 13:56:00,620 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 13:56:01,063 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 13:56:01,066 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:56:01,069 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:56:01,072 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:56:01,074 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:56:01,075 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 13:56:01,385 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 13:56:01,386 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 13:56:01,388 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 13:56:01,389 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 13:56:01,391 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 13:56:01,393 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 13:56:01,394 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 13:56:01,395 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 13:56:01,396 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 13:56:01,720 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 13:56:01,722 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 13:56:01,724 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 13:56:01,725 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 13:56:01,726 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 13:56:01,726 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 13:56:01,728 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 13:56:01,728 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 13:56:02,041 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 13:56:02,043 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 13:56:02,249 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 13:56:03,361 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 13:56:03,362 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 13:56:03,450 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 13:56:03,458 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 13:56:09,256 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 13:56:09,257 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 13:56:42,364 - __main__ - INFO - 👋 Aplicação encerrada normalmente
+2025-08-30 14:12:48,049 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 14:12:48,279 - __main__ - INFO - ==================================================
+2025-08-30 14:12:48,280 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 14:12:48,280 - __main__ - INFO - ==================================================
+2025-08-30 14:12:48,281 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 14:12:48,281 - __main__ - INFO - Plataforma: win32
+2025-08-30 14:12:48,284 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 14:12:48,286 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 14:12:48,287 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 14:12:48.287428
+2025-08-30 14:12:48,288 - __main__ - INFO - ==================================================
+2025-08-30 14:12:48,601 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 14:12:48,606 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 14:12:48,610 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 14:12:48,926 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 14:12:50,152 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 14:12:51,937 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 14:12:52,184 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 14:12:52,197 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 14:12:52,206 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 14:12:52,659 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 14:12:52,661 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:12:52,663 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:12:52,665 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:12:52,666 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:12:52,667 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 14:12:52,977 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 14:12:52,978 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 14:12:52,980 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 14:12:52,981 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 14:12:52,982 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 14:12:52,983 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 14:12:52,985 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:12:52,986 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 14:12:52,987 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 14:12:53,305 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 14:12:53,306 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 14:12:53,308 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 14:12:53,309 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 14:12:53,310 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 14:12:53,312 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 14:12:53,313 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 14:12:53,314 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 14:12:53,621 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 14:12:53,624 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 14:12:53,830 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 14:12:54,884 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 14:12:54,885 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 14:12:54,948 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 14:12:54,950 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 14:13:03,165 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 14:13:03,166 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 14:16:59,711 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 14:16:59,922 - __main__ - INFO - ==================================================
+2025-08-30 14:16:59,923 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 14:16:59,924 - __main__ - INFO - ==================================================
+2025-08-30 14:16:59,924 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 14:16:59,925 - __main__ - INFO - Plataforma: win32
+2025-08-30 14:16:59,925 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 14:16:59,926 - __main__ - INFO - Diretório da Aplicação: c:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 14:16:59,926 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 14:16:59.926884
+2025-08-30 14:16:59,927 - __main__ - INFO - ==================================================
+2025-08-30 14:17:00,240 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 14:17:00,244 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 14:17:00,245 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 14:17:00,559 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 14:17:01,610 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 14:17:03,096 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 14:17:03,324 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 14:17:03,335 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 14:17:03,342 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 14:17:03,810 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 14:17:03,812 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:17:03,814 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:17:03,817 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:17:03,820 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:17:03,820 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 14:17:04,131 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 14:17:04,131 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 14:17:04,132 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 14:17:04,133 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 14:17:04,133 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 14:17:04,134 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 14:17:04,134 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:17:04,135 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 14:17:04,136 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 14:17:04,503 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 14:17:04,505 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 14:17:04,507 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 14:17:04,508 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 14:17:04,510 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 14:17:04,512 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 14:17:04,515 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 14:17:04,516 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 14:17:04,840 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 14:17:04,844 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 14:17:05,054 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 14:17:06,161 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 14:17:06,163 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 14:17:06,236 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 14:17:06,241 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 14:17:12,393 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 14:17:12,394 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 14:18:32,931 - __main__ - INFO - 👋 Aplicação encerrada normalmente
+2025-08-30 14:26:41,799 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 14:26:42,019 - __main__ - INFO - ==================================================
+2025-08-30 14:26:42,019 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 14:26:42,020 - __main__ - INFO - ==================================================
+2025-08-30 14:26:42,020 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 14:26:42,023 - __main__ - INFO - Plataforma: win32
+2025-08-30 14:26:42,024 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 14:26:42,025 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 14:26:42,026 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 14:26:42.026599
+2025-08-30 14:26:42,027 - __main__ - INFO - ==================================================
+2025-08-30 14:26:42,336 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 14:26:42,341 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 14:26:42,342 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 14:26:42,649 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 14:26:44,997 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 14:26:48,582 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 14:26:49,345 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 14:26:49,370 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 14:26:49,395 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 14:26:50,157 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 14:26:50,160 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:26:50,162 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:26:50,165 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:26:50,168 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:26:50,169 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 14:26:50,483 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 14:26:50,484 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 14:26:50,485 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 14:26:50,486 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 14:26:50,487 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 14:26:50,488 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 14:26:50,490 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:26:50,491 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 14:26:50,491 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 14:26:50,800 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 14:26:50,810 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 14:26:50,816 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 14:26:50,818 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 14:26:50,820 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 14:26:50,825 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 14:26:50,830 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 14:26:50,830 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 14:26:51,145 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 14:26:51,151 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 14:26:51,374 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 14:26:52,548 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 14:26:52,550 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 14:26:52,660 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 14:26:52,661 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 14:26:52,682 - __main__ - ERROR - ❌ Erro ao executar aplicação: unterminated string literal (detected at line 250) (interface.py, line 250)
+2025-08-30 14:26:52,689 - __main__ - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Apostas desportivas\run_app.py", line 435, in executar_aplicacao
+    from interface import ApostasApp
+  File "C:\Users\Administrator\Desktop\Apostas desportivas\interface.py", line 250
+    text="⚽ APOSTAS
+         ^
+SyntaxError: unterminated string literal (detected at line 250)
+
+2025-08-30 14:26:52,691 - __main__ - ERROR - 💥 Erro crítico: unterminated string literal (detected at line 250) (interface.py, line 250)
+2025-08-30 14:26:52,695 - __main__ - ERROR - Traceback completo: Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Apostas desportivas\run_app.py", line 499, in main
+    initializer.executar_aplicacao()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Desktop\Apostas desportivas\run_app.py", line 435, in executar_aplicacao
+    from interface import ApostasApp
+  File "C:\Users\Administrator\Desktop\Apostas desportivas\interface.py", line 250
+    text="⚽ APOSTAS
+         ^
+SyntaxError: unterminated string literal (detected at line 250)
+
+2025-08-30 14:30:29,004 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 14:30:29,216 - __main__ - INFO - ==================================================
+2025-08-30 14:30:29,217 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 14:30:29,220 - __main__ - INFO - ==================================================
+2025-08-30 14:30:29,221 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 14:30:29,222 - __main__ - INFO - Plataforma: win32
+2025-08-30 14:30:29,223 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 14:30:29,224 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-30 14:30:29,225 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 14:30:29.224954
+2025-08-30 14:30:29,226 - __main__ - INFO - ==================================================
+2025-08-30 14:30:29,536 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 14:30:29,537 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 14:30:29,540 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 14:30:29,851 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 14:30:31,043 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 14:30:32,768 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 14:30:33,057 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 14:30:33,070 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 14:30:33,079 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 14:30:33,623 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-30 14:30:33,626 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:30:33,628 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:30:33,632 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:30:33,634 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:30:33,635 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 14:30:33,948 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 14:30:33,949 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-30 14:30:33,951 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-30 14:30:33,952 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-30 14:30:33,953 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-30 14:30:33,954 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-30 14:30:33,955 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 14:30:33,956 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-30 14:30:33,957 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-30 14:30:34,268 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-30 14:30:34,270 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-30 14:30:34,272 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-30 14:30:34,274 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-30 14:30:34,275 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-30 14:30:34,277 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-30 14:30:34,278 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-30 14:30:34,278 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-30 14:30:34,586 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-30 14:30:34,587 - __main__ - INFO - ✅ Configurações - OK
+2025-08-30 14:30:34,802 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-30 14:30:35,864 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-30 14:30:35,867 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-30 14:30:35,941 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-30 14:30:35,942 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-30 14:30:43,273 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-30 14:30:43,275 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-30 14:31:53,558 - __main__ - INFO - 👋 Aplicação encerrada normalmente
+2025-08-30 16:53:39,774 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-30 16:53:39,984 - __main__ - INFO - ==================================================
+2025-08-30 16:53:39,985 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-30 16:53:39,985 - __main__ - INFO - ==================================================
+2025-08-30 16:53:39,985 - __main__ - INFO - Sistema Operacional: nt
+2025-08-30 16:53:39,985 - __main__ - INFO - Plataforma: win32
+2025-08-30 16:53:39,985 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-30 16:53:39,986 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas\dist\ApostasDesportivas\_internal
+2025-08-30 16:53:39,986 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-30 16:53:39.986563
+2025-08-30 16:53:39,986 - __main__ - INFO - ==================================================
+2025-08-30 16:53:40,298 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-30 16:53:40,299 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-30 16:53:40,299 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-30 16:53:40,609 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-30 16:53:40,888 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-30 16:53:41,864 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-30 16:53:42,060 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-30 16:53:42,065 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-30 16:53:42,069 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-30 16:53:42,070 - __main__ - INFO - ℹ️ Módulo flask - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 16:53:42,071 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 16:53:42,072 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 16:53:42,073 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 16:53:42,074 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 16:53:42,074 - __main__ - INFO - ✅ Dependências - OK
+2025-08-30 16:53:42,380 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-30 16:53:42,381 - __main__ - ERROR - ❌ Arquivo interface.py - Não encontrado
+2025-08-30 16:53:42,384 - __main__ - ERROR - ❌ Arquivo apostas.db - Não encontrado
+2025-08-30 16:53:42,385 - __main__ - ERROR - ❌ Arquivo requirements.txt - Não encontrado
+2025-08-30 16:53:42,387 - __main__ - INFO - ℹ️ Arquivo usuarios.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 16:53:42,388 - __main__ - INFO - ℹ️ Arquivo autenticacao.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 16:53:42,389 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 16:53:42,389 - __main__ - INFO - ℹ️ Arquivo ml_previsoes.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-30 16:53:42,390 - __main__ - ERROR - Arquivos em falta: interface.py, apostas.db, requirements.txt
+2025-08-30 16:53:42,390 - __main__ - ERROR - ❌ Falha na verificação: Arquivos necessários
+2025-08-30 16:53:42,442 - __main__ - ERROR - ❌ Falha na inicialização da aplicação
+2025-08-31 13:31:36,060 - __main__ - ERROR - Erro ao criar tela de loading: bad screen distance "250.0"
+2025-08-31 13:31:37,252 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-31 13:31:37,457 - __main__ - INFO - ==================================================
+2025-08-31 13:31:37,458 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-31 13:31:37,458 - __main__ - INFO - ==================================================
+2025-08-31 13:31:37,459 - __main__ - INFO - Sistema Operacional: nt
+2025-08-31 13:31:37,459 - __main__ - INFO - Plataforma: win32
+2025-08-31 13:31:37,459 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-31 13:31:37,460 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas\dist_final_correto\ApostasDesportivas
+2025-08-31 13:31:37,460 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-31 13:31:37.460362
+2025-08-31 13:31:37,460 - __main__ - INFO - ==================================================
+2025-08-31 13:31:37,761 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-31 13:31:37,762 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-31 13:31:37,762 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-31 13:31:38,066 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-31 13:31:38,069 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-31 13:31:45,544 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-31 13:31:46,354 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-31 13:31:46,359 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-31 13:31:46,363 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-31 13:31:46,366 - __main__ - INFO - ℹ️ Módulo flask - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 13:31:46,368 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 13:31:46,370 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 13:31:46,372 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 13:31:46,375 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 13:31:46,375 - __main__ - INFO - ✅ Dependências - OK
+2025-08-31 13:31:46,845 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-31 13:31:46,846 - __main__ - ERROR - ❌ Arquivo interface.py - Não encontrado
+2025-08-31 13:31:46,847 - __main__ - ERROR - ❌ Arquivo apostas.db - Não encontrado
+2025-08-31 13:31:46,849 - __main__ - ERROR - ❌ Arquivo requirements.txt - Não encontrado
+2025-08-31 13:31:46,850 - __main__ - INFO - ℹ️ Arquivo usuarios.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 13:31:46,851 - __main__ - INFO - ℹ️ Arquivo autenticacao.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 13:31:46,852 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 13:31:46,852 - __main__ - INFO - ℹ️ Arquivo ml_previsoes.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 13:31:46,853 - __main__ - ERROR - Arquivos em falta: interface.py, apostas.db, requirements.txt
+2025-08-31 13:31:46,853 - __main__ - ERROR - ❌ Falha na verificação: Arquivos necessários
+2025-08-31 13:31:46,871 - __main__ - ERROR - ❌ Falha na inicialização da aplicação
+2025-08-31 14:45:33,949 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-31 14:45:34,156 - __main__ - INFO - ==================================================
+2025-08-31 14:45:34,170 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-31 14:45:34,182 - __main__ - INFO - ==================================================
+2025-08-31 14:45:34,189 - __main__ - INFO - Sistema Operacional: nt
+2025-08-31 14:45:34,201 - __main__ - INFO - Plataforma: win32
+2025-08-31 14:45:34,203 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-31 14:45:34,206 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas
+2025-08-31 14:45:34,213 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-31 14:45:34.213138
+2025-08-31 14:45:34,213 - __main__ - INFO - ==================================================
+2025-08-31 14:45:34,527 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-31 14:45:34,567 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-31 14:45:34,568 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-31 14:45:35,018 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-31 14:45:35,944 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-31 14:45:40,158 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-31 14:45:41,821 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-31 14:45:41,876 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-31 14:45:41,919 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-31 14:45:50,401 - __main__ - INFO - ✅ Módulo flask - Disponível (v2.0)
+2025-08-31 14:45:50,419 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 14:45:50,438 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 14:45:50,448 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 14:45:50,533 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 14:45:50,545 - __main__ - INFO - ✅ Dependências - OK
+2025-08-31 14:45:50,900 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-31 14:45:50,934 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-31 14:45:51,014 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-31 14:45:51,032 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-31 14:45:51,046 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-31 14:45:51,074 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-31 14:45:51,088 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 14:45:51,115 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-31 14:45:51,135 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-31 14:45:51,664 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-31 14:45:51,703 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-31 14:45:51,767 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-31 14:45:51,797 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-31 14:45:51,902 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-31 14:45:51,940 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-31 14:45:52,013 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-31 14:45:52,043 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-31 14:45:52,423 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-31 14:45:52,461 - __main__ - INFO - ✅ Configurações - OK
+2025-08-31 14:45:52,825 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-31 14:45:54,346 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-31 14:45:54,435 - __main__ - INFO - 🔧 Inicializando sistema de usuários...
+2025-08-31 14:45:55,214 - __main__ - INFO - ✅ Sistema de usuários inicializado
+2025-08-31 14:45:55,221 - __main__ - INFO - 🤖 Sistema de ML disponível
+2025-08-31 14:46:13,810 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-31 14:46:13,812 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-31 15:30:46,699 - __main__ - INFO - 🚀 Iniciando Aplicação de Gestão de Apostas Desportivas v2.0
+2025-08-31 15:30:46,916 - __main__ - INFO - ==================================================
+2025-08-31 15:30:46,917 - __main__ - INFO - INFORMAÇÕES DO SISTEMA
+2025-08-31 15:30:46,917 - __main__ - INFO - ==================================================
+2025-08-31 15:30:46,917 - __main__ - INFO - Sistema Operacional: nt
+2025-08-31 15:30:46,918 - __main__ - INFO - Plataforma: win32
+2025-08-31 15:30:46,918 - __main__ - INFO - Versão Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-08-31 15:30:46,918 - __main__ - INFO - Diretório da Aplicação: C:\Users\Administrator\Desktop\Apostas desportivas\Compilacaot\ApostasDesportivas
+2025-08-31 15:30:46,918 - __main__ - INFO - Data/Hora de Inicialização: 2025-08-31 15:30:46.918707
+2025-08-31 15:30:46,919 - __main__ - INFO - ==================================================
+2025-08-31 15:30:47,235 - __main__ - INFO - 🔍 Verificando: Versão do Python
+2025-08-31 15:30:47,236 - __main__ - INFO - ✅ Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] - Compatível
+2025-08-31 15:30:47,236 - __main__ - INFO - ✅ Versão do Python - OK
+2025-08-31 15:30:47,550 - __main__ - INFO - 🔍 Verificando: Dependências
+2025-08-31 15:30:48,095 - __main__ - INFO - ✅ Módulo customtkinter - Disponível
+2025-08-31 15:30:56,246 - __main__ - INFO - ✅ Módulo pandas - Disponível
+2025-08-31 15:30:56,870 - __main__ - INFO - ✅ Módulo matplotlib - Disponível
+2025-08-31 15:30:56,874 - __main__ - INFO - ✅ Módulo cryptography - Disponível
+2025-08-31 15:30:56,878 - __main__ - INFO - ✅ Módulo reportlab - Disponível
+2025-08-31 15:30:56,879 - __main__ - INFO - ℹ️ Módulo flask - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 15:30:56,881 - __main__ - INFO - ℹ️ Módulo scikit-learn - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 15:30:56,883 - __main__ - INFO - ℹ️ Módulo kivy - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 15:30:56,885 - __main__ - INFO - ℹ️ Módulo bcrypt - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 15:30:56,887 - __main__ - INFO - ℹ️ Módulo PyJWT - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 15:30:56,887 - __main__ - INFO - ✅ Dependências - OK
+2025-08-31 15:30:57,197 - __main__ - INFO - 🔍 Verificando: Arquivos necessários
+2025-08-31 15:30:57,198 - __main__ - INFO - ✅ Arquivo interface.py - Encontrado
+2025-08-31 15:30:57,198 - __main__ - INFO - ✅ Arquivo apostas.db - Encontrado
+2025-08-31 15:30:57,198 - __main__ - INFO - ✅ Arquivo requirements.txt - Encontrado
+2025-08-31 15:30:57,199 - __main__ - INFO - ✅ Arquivo usuarios.py - Encontrado (v2.0)
+2025-08-31 15:30:57,199 - __main__ - INFO - ✅ Arquivo autenticacao.py - Encontrado (v2.0)
+2025-08-31 15:30:57,199 - __main__ - INFO - ℹ️ Arquivo api_mobile.py - Não encontrado (funcionalidade v2.0 não disponível)
+2025-08-31 15:30:57,200 - __main__ - INFO - ✅ Arquivo ml_previsoes.py - Encontrado (v2.0)
+2025-08-31 15:30:57,201 - __main__ - INFO - ✅ Arquivos necessários - OK
+2025-08-31 15:30:57,511 - __main__ - INFO - 🔍 Verificando: Diretórios
+2025-08-31 15:30:57,513 - __main__ - INFO - ✅ Diretório logs - Verificado
+2025-08-31 15:30:57,514 - __main__ - INFO - ✅ Diretório exports - Verificado
+2025-08-31 15:30:57,516 - __main__ - INFO - ✅ Diretório backups - Verificado
+2025-08-31 15:30:57,517 - __main__ - INFO - ✅ Diretório data - Verificado
+2025-08-31 15:30:57,518 - __main__ - INFO - ✅ Diretório traducoes - Verificado
+2025-08-31 15:30:57,519 - __main__ - INFO - ✅ Diretório temas - Verificado
+2025-08-31 15:30:57,519 - __main__ - INFO - ✅ Diretórios - OK
+2025-08-31 15:30:57,831 - __main__ - INFO - 🔍 Verificando: Configurações
+2025-08-31 15:30:57,833 - __main__ - INFO - ✅ Configuração de idioma criada
+2025-08-31 15:30:57,835 - __main__ - INFO - ✅ Configuração de temas criada
+2025-08-31 15:30:57,836 - __main__ - INFO - ✅ Configurações - OK
+2025-08-31 15:30:58,061 - __main__ - INFO - ✅ Todas as verificações passaram!
+2025-08-31 15:30:59,132 - __main__ - INFO - 🎯 Carregando interface principal...
+2025-08-31 15:31:02,481 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-31 15:31:33,291 - __main__ - INFO - ✅ Interface carregada com sucesso
+2025-08-31 15:31:33,292 - __main__ - INFO - 🎉 Aplicação iniciada!
+2025-08-31 15:38:22,245 - __main__ - INFO - 👋 Aplicação encerrada normalmente

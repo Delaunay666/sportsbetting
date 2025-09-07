@@ -1,0 +1,25 @@
+{
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "email_remetente": "",
+  "password_remetente": "",
+  "email_destino": "delaunayjulio@gmail.com",
+  "ativo": false,
+  "usar_tls": true,
+  "_comentarios": {
+    "instrucoes": "COMO CONFIGURAR O SISTEMA DE EMAIL:",
+    "passo1": "1. Preencha 'email_remetente' com um email Gmail (ex: seuemail@gmail.com)",
+    "passo2": "2. Preencha 'password_remetente' com uma App Password do Gmail",
+    "passo3": "3. Altere 'ativo' para true",
+    "passo4": "4. Opcionalmente, altere 'email_destino' para outro email",
+    "nota_importante": "ATENÇÃO: Para Gmail, NÃO use a password normal!",
+    "como_obter_app_password": "Como obter App Password:",
+    "etapa1": "• Aceda a https://myaccount.google.com/security",
+    "etapa2": "• Ative a verificação em 2 passos",
+    "etapa3": "• Vá a 'App passwords' e gere uma nova",
+    "etapa4": "• Escolha 'Mail' como aplicação",
+    "etapa5": "• Copie a password gerada (16 caracteres)",
+    "exemplo": "Exemplo: email_remetente: 'seuemail@gmail.com', password_remetente: 'abcd efgh ijkl mnop'",
+    "link_ajuda": "https://support.google.com/accounts/answer/185833"
+  }
+}
